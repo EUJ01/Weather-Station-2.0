@@ -1,0 +1,135 @@
+/* fonts start */
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,
+h3,
+a,
+button,
+input {
+    font-family: "Montserrat";
+}
+
+/* fonts end */
+
+body {
+    background-color: #DFF5FF;
+}
+
+/* main html div CSS */
+.navbar {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.navitem {
+    font-size: 20px;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    /* removes underline */
+}
+
+.navitem:hover {
+    background-color: rgb(120, 194, 212);
+}
+
+.main {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 275px;
+    margin: 12px;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Rubik Scribble';
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    text-align: center;
+}
+
+/* main html div CSS */
+
+/* generic tag css */
+input[type=text] {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(159, 206, 218);
+    margin: 10px 10px 0px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(81, 177, 201);
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+}
+
+/* generic tag css */
+
+
+/* JS div CSS */
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    border-right: 10px;
+}
+
+#weatherbox {
+    padding: 15px 20px 0px 20px; 
+    background-color: aliceblue;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 275px;
+}

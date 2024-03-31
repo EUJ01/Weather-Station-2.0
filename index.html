@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Station</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- fonts end -->
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="navitem" href="">Home</a>
+        <a class="navitem" href="">About Us (Unavailable)</a>
+    </div>
+    <hr>
+
+    <div class="main">
+        <h2>Enter Country</h2>
+        <input id="citySearch" type="text">
+        <button onclick="getCountry()">Search City</button>
+        <button onclick="getWeather()">Weather Details</button>
+    </div>
+
+    <h1 id="title">EUJ's Country Info Station</h1>
+
+    <div id="container">
+        <!-- JS code -->
+    </div>
+
+    <div id="weatherbox">
+        <!-- JS code -->
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/EUJ01" target="_blank"><img style="height: 50px;" src="logo.png"
+                alt="github.png"></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
